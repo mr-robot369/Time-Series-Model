@@ -11,6 +11,11 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import tensorflow as tf
+import base64
+
+
+# Set Browser Title and Logo
+st.set_page_config(page_title="Time Series Forecasting", page_icon="📊")
 
 # Custom CSS for Styling
 st.markdown(
